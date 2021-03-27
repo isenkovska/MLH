@@ -18,14 +18,13 @@ exports.config = {
     //
     specs: [
         './test/smoke/*.js',
-        './test/extended/*.js',
+        //'./test/extended/*.js',
     ],
     // Patterns to exclude.
     exclude: [
         './test/smoke/elementsExist.js',
         './test/smoke/labelsCorrect.js',
-        './test/smoke/smokeFunctional.js',
-        './test/smoke/nameNegative.js'
+        './test/extended/nameNegative.js'
     ],
     //
     // ============
