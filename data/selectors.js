@@ -11,8 +11,11 @@ const elements = {
     "storyList": ".ant-select-item",
     "imageLabel": ".ant-form-item-label",
     "image": "span.ant-upload",
-    "submitBtn": ".ant-btn",
-    "tryAgain": ".btn-primary"
+    "imageHiddenInput": ".ant-upload input",
+    "imgAlt": "img[alt]",
+    "submit": ".ant-btn",
+    "tryAgain": ".btn-primary",
+    "story": ".card-text"
 
 }
 
